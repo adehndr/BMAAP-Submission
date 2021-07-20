@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityDetail">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        >
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="210dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            tools:src = "@color/colorAccent"
+            android:id="@+id/detail_image"
+            android:layout_marginEnd="20dp"
+            android:contentDescription="@string/cover_tittle"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/comic_tittle"
+            android:id="@+id/detail_title"
+            android:layout_below="@+id/detail_image"
+            android:layout_marginVertical="8dp"
+            android:textSize="24sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_title"
+            android:layout_centerVertical="true"
+            android:textSize="12sp"
+            android:layout_marginStart="12dp"
+            android:text="@string/genre"
+            android:id="@+id/detail_tag"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/detail_tag"
+            android:layout_below="@+id/detail_title"
+
+            android:layout_marginStart="8dp"
+            android:text="@string/action"
+            android:textSize="12sp"
+            android:id="@+id/detail_genre"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/detail_detail"
+            android:layout_below="@+id/detail_tag"
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginVertical="12dp"
+            android:justificationMode="inter_word"
+
+            tools:targetApi="o" />
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

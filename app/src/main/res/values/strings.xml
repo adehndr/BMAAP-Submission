@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ComicDB</string>
+    <string name="comic_tittle">Comic Tittle</string>
+    <string name="tag">Tag :</string>
+    <string name="action">Action</string>
+    <string name="genre">Genre :</string>
+    <string name="comic_cover">Comic Cover</string>
+    <string name="about_me">About Me</string>
+    <string name="sort_by_name_ascending">Sort by Name Ascending</string>
+    <string name="sort_by_name_descending">Sort by Name Descending</string>
+    <string name="dummy_text">Dummy Text Dummy Text Dummy Text Dummy Text Dummy Text</string>
+    <string name="cover_tittle">Cover Tittle</string>
+    <string name="ade_hendra_setiawan_nugraha">Ade Hendra Setiawan Nugraha</string>
+    <string name="adehender_gmail_com">adehender@gmail.com</string>
+</resources>

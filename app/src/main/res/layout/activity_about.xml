@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_about">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/profil_image"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="2dp"
+            android:src="@drawable/fotosaya"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_name"
+            android:text="@string/ade_hendra_setiawan_nugraha"
+            android:layout_below="@+id/profil_image"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:textSize="24sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/adehender_gmail_com"
+            android:layout_below="@+id/tv_name"
+            android:layout_marginTop="12dp"
+            android:textSize="18sp"
+            android:gravity="center_horizontal"
+            />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</ScrollView>
